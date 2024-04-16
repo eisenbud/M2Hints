@@ -1,0 +1,5 @@
+for a new M2 window:
+meta-x rename-buffer foo
+then f12 starts a new window named *M2* and f11 goes to that.
+but ^u f11 foo then sends a command to foo (and then f11 will keep sending to foo
+until ^u f11 *M2* etc.
